@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Google Insights automatization</title>
+</head>
+<body>
+    <header>
+        <!-- <p class="welcome-message">
+            Hello! Do you want to know perfomance stats of a few sites? Put it in
+        </p> -->
+    </header>
+    <div class="form_wrapper">
+        <form class="form">
+            <div>
+                <label for="apikey" class="form--label">API key</label>
+                <input id="apikey" value="AIzaSyAK1XkMf066K74Ra8_o3QWyJOKOUxb6EZg" name="secret_key" class="form--input_text">
+            </div>
+            <div>
+                <label for="domenlist" class="form--label">List of domens</label>
+                <textarea id="domenlist" name="domen_list" class="form--textarea"></textarea>
+            </div>
+            <div>
+                <button id="sendbutton" class="form--button_send" type="button" >Start!</button>
+                <button id="resetbutton" class="form--button_reset" type="reset" >Reset</button>
+            </div>
+        </form>
+    </div>
+    <div class="results">
+        <!-- TEST -->
+        <table class="table_results">
+            <th>
+                <td>Full URL</td>
+                <td>TTI</td>
+            </th>
+            <!-- <tr>
+                <td>Example inp</td>
+                <td>Example URL</td>
+                <td>666</td>
+            </tr> -->
+        </table>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

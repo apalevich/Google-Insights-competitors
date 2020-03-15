@@ -1,0 +1,15 @@
+.form_wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+/* .form {} */
+.form__input {
+    width: 200px;
+}
+.table_results {
+    border: 1px solid black;
+    margin: 100px auto;
+}
+.table_results td {
+    border: 2px dotted blue;
+}
